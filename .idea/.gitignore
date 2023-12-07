@@ -1,0 +1,22 @@
+/dictionaries/
+/shelf/
+/workspace.xml
+/tasks.xml
+/usage.statistics.xml
+
+/contentModel.xml
+
+/dataSources/
+/dataSources.ids
+/dataSources.local.xml
+/sqlDataSources.xml
+/dynamic.xml
+/uiDesigner.xml
+/dbnavigator.xml
+
+# Gradle and Maven with auto-import
+/artifacts/
+/compiler.xml
+/jarRepositories.xml
+
+/poetry.xml
