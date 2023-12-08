@@ -1,2 +1,3 @@
-# flink-samples
-Apache Flink code samples
+# Apache Flink Code Samples
+
+This repository contains code samples for Apache Flink applications.

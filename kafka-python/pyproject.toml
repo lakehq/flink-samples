@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "kafka-python"
+version = "0.1.0"
+description = "Kafka code sample for Apache Flink"
+authors = ["LakeSail <hello@lakesail.com>"]
+readme = "README.md"
+license = "Apache-2.0"
+packages = [{ include = "demo", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+black = "^23.9.1"
+flake8 = "^6.1.0"
+apache-flink = "1.17.1"
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
